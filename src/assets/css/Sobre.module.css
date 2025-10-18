@@ -1,0 +1,170 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Imagens/background.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.285);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    
+}
+
+.feito{
+    color: white;
+    font-size: 35px; 
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.descubra{
+    font-size:18px;
+    margin-left: 80px;
+    margin-top: 25px;
+    color: white;
+}
+
+.losango{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.container{
+    position: relative;
+    margin-top: 40px;
+    width: 20px;
+    align-items: center;
+
+}
+
+.pecas{
+    color: #fff;
+    margin-left: 120px;
+    position: relative;
+    margin-top: -125px;
+    font-size: 20px;
+}
+.recriacao{
+    color: #fff;
+    margin-left: 120px;
+    position: relative;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.kits{
+    color: #fff;
+    margin-left: 120px;
+    position: relative;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.chaveiroflor{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.vouve{
+    width: 600px;
+    height: 500px;
+    margin-left: 54%;
+    margin-top: -350px;
+}
+
+.caixabotao{
+    margin-top: -90px;
+    width: 500px;
+    margin-left: 5%;   
+
+}
+
+.ver{
+    width: 150px;
+    height: 40px;   
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fazer{
+    width: 150px;
+    height: 40px;
+    margin-left: 4%;
+    border-radius: 8px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .feito,
+    .descubra,
+    .losango,
+    .pecas,
+    .recriacao,
+    .kits,
+    .caixabotao {
+        margin-left: 20px;
+    }
+
+    .feito {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .descubra {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .losango {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .pecas {
+        margin-top: 20px;
+    }
+
+    .vouve {
+        width: 90%;
+        height: auto;
+        margin: 40px auto 0;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .caixabotao {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .ver,
+    .fazer {
+        width: 80%;
+    }
+
+    .fazer {
+        margin-left: 0;
+    }
+}
+
+
+
+

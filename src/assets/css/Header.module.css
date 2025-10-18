@@ -1,0 +1,91 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.borda {
+  position: relative;
+  width: 100%;
+}
+
+.icone {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+}
+
+.caixa {
+  width: 500px;
+  padding: 10px 10px 10px 40px; 
+  border-radius: 20px;
+  font-size: 16px;  
+}
+
+.lupa{
+    width: 20px;
+    height: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+
+
+    & li a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #000;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+    }
+
+    & a:hover {
+        color: deeppink;
+        transition: 0.5s ease-in-out;
+    }
+
+
+}
+
+.navigation a::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: deeppink;
+  transition: 0.3s;
+  width: 0;
+}
+
+.navigation a:hover::after{
+  width: 100%;
+}
+
+.pedido{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.pedido a{
+  text-decoration: none;
+  color: white;
+}
+

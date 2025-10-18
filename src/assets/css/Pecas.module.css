@@ -1,0 +1,19 @@
+
+.area{
+    width: 100%;
+    background-color: #fef2f9;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+}
+
+@media (max-width: 768px) {
+    .area {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+}
